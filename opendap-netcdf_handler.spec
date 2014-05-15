@@ -5,25 +5,25 @@
 Summary:	NetCDF 3 data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane NetCDF 3 dla serwera danych OPeNDAP
 Name:		opendap-netcdf_handler
-Version:	3.10.3
+Version:	3.10.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/netcdf_handler-%{version}.tar.gz
-# Source0-md5:	a4453fbf1f2a73ede4aa399cd02021c3
+# Source0-md5:	2e7f1a6f2f24653355833e4413cbd64b
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
-BuildRequires:	libdap-devel >= 3.11.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:2
-BuildRequires:	netcdf-devel >= 3.6
+BuildRequires:	netcdf-devel >= 4
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	libdap >= 3.11.0
-Requires:	netcdf >= 3.6
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
+Requires:	netcdf >= 4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
