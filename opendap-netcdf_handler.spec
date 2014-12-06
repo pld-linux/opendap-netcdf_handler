@@ -6,11 +6,11 @@ Summary:	NetCDF 3 data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane NetCDF 3 dla serwera danych OPeNDAP
 Name:		opendap-netcdf_handler
 Version:	3.10.4
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/netcdf_handler-%{version}.tar.gz
-# Source0-md5:	2e7f1a6f2f24653355833e4413cbd64b
+# Source0-md5:	0a5408b958b0a913f1e0b12dea748a9e
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake >= 1:1.10
